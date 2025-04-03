@@ -15,18 +15,18 @@ html {
 h1 {
   font-size: 50px;
   line-height: 64px;
-  color: #222;
+  color: #222831;
 }
 
 h2 {
   font-size: 46px;
   line-height: 54px;
-  color: #222;
+  color: #222831;
 }
 
 h4 {
   font-size: 20px;
-  color: #222;
+  color: #222831;
 }
 
 h6 {
@@ -36,7 +36,7 @@ h6 {
 
 p {
   font-size: 16px;
-  color: #465b52;
+  color: #393E46;
   margin: 15px 0 20px 0;
 }
 
@@ -51,3 +51,80 @@ p {
 body {
   width: 100%;
 }
+
+/* Header Start*/
+#header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 80px;
+  background: rgb(238, 238, 238);
+  box-shadow: 0 5px 15px rgb(34, 40, 49) ;
+}
+.logo{
+  width: 300px;
+  height: 100px;
+}
+#navBar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#navBar li{
+  list-style: none;
+  padding: 0 20px;
+  position: relative;
+}
+#navBar li a{
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: #222831;
+  transition: 0.5s ease;
+}
+#navBar li a:hover,
+#navBar li a.active{
+  color: #00ADB5;
+}
+#navBar li a.active::after,
+#navBar li a:hover::after{
+  content: "";
+  width: 30%;
+  height: 2px;
+  background: #00ADB5;
+  position: absolute;
+  bottom:  -4px;
+  left: 20px ;
+}
+
+/* Home Page*/
+#hero{
+  background-image: url("img/hero4.png");
+  height: 90vh;
+  width: 100%;
+  background-size: cover;
+  background-position: top 25% right 0;
+  padding: 0 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+#hero h4{
+  padding-bottom: 15px;
+}
+#hero h1{
+  color: #00ADB5;
+}
+#hero button{
+  background-image: url("img/button.png");
+  background-color: transparent;
+  color: #00ADB5;
+  border: 0;
+  padding: 14px 80px 15px 65px;
+}
+
+/* Shop Page*/
+/* Single Product*/
+/* Blog Page*/
+/* About Page*/
