@@ -15,18 +15,18 @@ html {
 h1 {
   font-size: 50px;
   line-height: 64px;
-  color: #222831;
+  color: #654520;
 }
 
 h2 {
   font-size: 46px;
   line-height: 54px;
-  color: #222831;
+  color: #654520;
 }
 
 h4 {
   font-size: 20px;
-  color: #222831;
+  color: #654520;
 }
 
 h6 {
@@ -36,7 +36,7 @@ h6 {
 
 p {
   font-size: 16px;
-  color: #393E46;
+  color: #825B32;
   margin: 15px 0 20px 0;
 }
 
@@ -59,11 +59,15 @@ body {
   justify-content: space-between;
   padding: 20px 80px;
   background: rgb(238, 238, 238);
-  box-shadow: 0 5px 15px rgb(34, 40, 49) ;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06) ;
+  z-index: 999;
+  position: sticky;
+  top: 0;
+  left: 0;
 }
 .logo{
-  width: 300px;
-  height: 100px;
+  width: 250px;
+  height: 90px;
 }
 #navBar{
   display: flex;
@@ -79,19 +83,19 @@ body {
   text-decoration: none;
   font-size: 18px;
   font-weight: 600;
-  color: #222831;
+  color: #654520;
   transition: 0.5s ease;
 }
 #navBar li a:hover,
 #navBar li a.active{
-  color: #00ADB5;
+  color: #6CBEC7;
 }
 #navBar li a.active::after,
 #navBar li a:hover::after{
   content: "";
   width: 30%;
   height: 2px;
-  background: #00ADB5;
+  background: #81DAE3;
   position: absolute;
   bottom:  -4px;
   left: 20px ;
@@ -119,9 +123,13 @@ body {
 #hero button{
   background-image: url("img/button.png");
   background-color: transparent;
-  color: #00ADB5;
+  color: #654520;
   border: 0;
   padding: 14px 80px 15px 65px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 700;
 }
 
 /* Shop Page*/
