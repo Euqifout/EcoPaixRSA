@@ -26,7 +26,7 @@ h2 {
 
 h4 {
   font-size: 20px;
-  color: #654520;
+  color: #825B32;
 }
 
 h6 {
@@ -66,8 +66,8 @@ body {
   left: 0;
 }
 .logo{
-  width: 250px;
-  height: 90px;
+  width: 450px;
+  height: 60px;
 }
 #navBar{
   display: flex;
@@ -132,6 +132,109 @@ body {
   font-weight: 700;
 }
 
+#feature {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#feature .fe-box {
+  width: 180px;
+  text-align: center;
+  padding: 25px 15px;
+  box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.3);
+  border: 1px solid #00ADB5 ;
+  background-color:  #EEEEEE;
+  border-radius: 4px;
+  margin: 15px 0;
+}
+#feature .fe-box :hover {
+  box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
+}
+#feature .fe-box img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+#feature .fe-box h6{
+  display: inline-block;
+  padding: 9px 8px 6px 8px;
+  line-height: 1;
+  border-radius: 4px;
+  color: #EEEEEE;
+  background-color:  #00ADB5;
+}
+#feature .fe-box:nth-child(2) h6  {
+  background-color: #222831;
+}
+#feature .fe-box:nth-child(3) h6  {
+  background-color: #6C5B7B;
+}
+#feature .fe-box:nth-child(4) h6  {
+  background-color: #C06C84;
+}
+#feature .fe-box:nth-child(5) h6  {
+  background-color: #F67280;
+}
+#feature .fe-box:nth-child(6) h6  {
+  background-color: #355C7D;
+}
+
+#product1{
+  text-align: center;
+}
+#product1 .pro-container{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  flex-wrap: wrap;
+}
+#product1 .pro{
+  width: 23%;
+  min-width: 250px;
+  padding: 10px 12px;
+  border: 1px solid #EEEEEE;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+  margin: 15px 0;
+  transition: 0.2s ease;
+  position: relative;
+}
+#product1 .pro img{
+  width: 100%;
+  border-radius: 20px;
+}
+#product1 .pro .des{
+  text-align: start;
+  padding: 10px 0;
+}
+#product1 .pro .des span{
+  color: #00ADB5;
+}
+#product1 .pro .des h5{
+  padding-top: 7px;
+  color: #222831;
+  font-size: 14px;
+}
+#product1 .pro .des i{
+  font-size: 12px;
+  color: rgb(243, 181, 25);
+}
+#product1 .pro .des h4{
+  padding-top: 7px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #00ADB5;
+}
+#product1 .pro .cart{
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50px;
+  background-color:  #EEEEEE;
+  font-weight: 500;
+  color: #00ADB5;
+}
 /* Shop Page*/
 /* Single Product*/
 /* Blog Page*/

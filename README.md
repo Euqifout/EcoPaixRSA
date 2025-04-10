@@ -5,7 +5,7 @@
  white  rgb(238, 238, 238) / #EEEEEE
 
 # color palette 2
-Blue        rgb(53, 92, 125)  /  #355C7D 
+Blue        rgb(53, 92, 125)  /  #355C7D
 BluePink    rgb(108, 91, 123) /  #6C5B7B
 PinkBlue    rgb(192, 108, 132)/  #C06C84
 Pink        rgb(246, 114, 128)/  #F67280
