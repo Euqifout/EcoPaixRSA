@@ -3,7 +3,8 @@
  Grey   rgb(57, 62, 70)    / #393E46
  Blue   rgb(0, 173, 181)   / #00ADB5
  white  rgb(238, 238, 238) / #EEEEEE
-
+ D_Brown  #654520
+ L_Brown  #825B32
 # color palette 2
 Blue        rgb(53, 92, 125)  /  #355C7D
 BluePink    rgb(108, 91, 123) /  #6C5B7B
