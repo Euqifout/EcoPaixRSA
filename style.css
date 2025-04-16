@@ -712,6 +712,15 @@ footer .col{
     margin: 0 0 15px 0;
   }
 
+  #close {
+    display: initial;
+    position: absolute;
+    top: -15px;
+    left: 30px;
+    color: #222831;
+    font-size: 24px;
+  }
+  #lg-bag {display: none;}
 
   #product1 .pro{
     width: 100%;
@@ -765,7 +774,7 @@ footer .col{
 
   #prodetails .single-pro-details{
     width: 100%;
-    
+
   }
 }
 
