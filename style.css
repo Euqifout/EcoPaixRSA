@@ -643,7 +643,7 @@ footer .col{
    }
 }
 
-@media (max-height: 350px){
+@media (max-height: 390px){
 
   .logo{
     width: 50%;
@@ -659,7 +659,7 @@ footer .col{
   }
 
   #banner {
-    height: 70vh;
+    height: 60vh;
   }
 
 
