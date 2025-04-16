@@ -478,8 +478,17 @@ footer .col{
   width: 100%;
   text-align: center;
  }
+
+ footer .copyright h4{
+  padding-bottom: 0;
+ }
+ footer .copyright p {
+  color:#825B32;
+  font-weight: 600;
+ }
  footer .copyright p span{
-  color: #000;
+  color: #00ADB5;
+  font-weight: 600;
  }
 /* Shop Page*/
 
