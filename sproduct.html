@@ -15,7 +15,9 @@
 
         <section id="header">
            
-                <a href="#"><img src="img/EcoPaixLogo2.jpg" class="logo" alt=""></a>
+            <a href="#" title="Back to homepage">
+                <img src="img/EcoPaixLogo2.jpg" class="logo" alt="EcoPaix Home">
+            </a>
            
             <div>
                 <ul id="navBar">
@@ -24,13 +26,20 @@
                     <li><a class="active" href="shop.html">Shop</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="blog.html">Blog</a></li> 
-                    <li id="lg-bag"><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
-                    <a href="#" id="close"><i class="far fa-times"></i></a>
-                   
+                    <li id="lg-bag">
+                        <a href="cart.html">
+                          <i class="far fa-shopping-bag" aria-hidden="true"></i>
+                          <span class="sr-only">View cart</span>
+                        </a>
+                      </li>
+                    <li><a href="#" id="close" title="Close menu"><i class="far fa-times"></i></a></li>
                 </ul>
             </div>
             <div id="mobile">
-                <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+                <a href="cart.html">
+                    <i class="far fa-shopping-bag" aria-hidden="true"></i>
+                    <span class="sr-only">View cart</span>
+                  </a>
                 <i id="bar" class="fas fa-outdent"></i>
             </div>
         </section>
@@ -57,17 +66,19 @@
                 <h6>Home / Tshirt</h6>
                 <h4>Classic EcoPeace Unisex T-Shirt</h4>
                 <h2>R120</h2>
-                <select>
+                
+                <select name="size" aria-label="Select size">
                     <option>Select Size</option>
-                    <option>XX-LargeL</option>
-                    <option>X-LargeL</option>
+                    <option>XX-Large</option>
+                    <option>X-Large</option>
                     <option>Large</option>
                     <option>Small</option>
                     <option>X-Small</option>
                 </select>
-                <input type="number" value="1">
-                <button>Add to cart</button>
-                <h4>Features:</h4>
+                
+                <input type="number" value="1" placeholder="Enter quantity">
+                <button class="normal">Add to cart</button>
+                <h4>Product Details:</h4>
                 <span>
                     100% certified organic cotton                 
                     Eco-friendly water-based print                 
@@ -77,6 +88,90 @@
                     
                     🌱 Sustainably made. Ethically worn.
                     Grab yours and rep the EcoPeace movement today</span>
+                
+            </div>
+        </section>
+
+        <section id="product1" class="section-p1">
+            <h2>Featured Products</h2>
+            <p>Summer Collection New Morden Design</p>
+            <div class="pro-container">
+                <div class="pro">
+                    <img src="img/products/n1.jpg" alt="">
+                    <div class="des">
+                        <span>Brand Name</span>
+                        <h5>Description of Item</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>R199</h4>
+                    </div>
+                    <a href="#" title="Shopping cart">
+                        <i class="fal fa-shopping-cart cart"></i>
+                    </a>
+                </div>
+
+                <div class="pro">
+                    <img src="img/products/n2.jpg" alt="">
+                    <div class="des">
+                        <span>Brand Name</span>
+                        <h5>Description of Item</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>R190</h4>
+                    </div>
+                    <a href="#" title="Shopping cart">
+                        <i class="fal fa-shopping-cart cart"></i>
+                    </a>
+                </div>
+
+                <div class="pro">
+                    <img src="img/products/n3.jpg" alt="">
+                    <div class="des">
+                        <span>Brand Name</span>
+                        <h5>Description of Item</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>R99</h4>
+                    </div>
+                    <a href="#" title="Shopping cart">
+                        <i class="fal fa-shopping-cart cart"></i>
+                    </a>
+                </div>
+
+                <div class="pro">
+                    <img src="img/products/n4.jpg" alt="">
+                    <div class="des">
+                        <span>Brand Name</span>
+                        <h5>Description of Item</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>R199</h4>
+                    </div>
+                    <a href="#" title="Shopping cart">
+                        <i class="fal fa-shopping-cart cart"></i>
+                    </a>
+                </div>
+           
             </div>
         </section>
 
@@ -146,6 +241,25 @@
                 <p><span>South Africa.</span></p>
             </div>
         </footer>
+
+        <script>
+            var MainImg = document.getElementById("MainImg");
+            var smallImage = document.getElementsByClassName("small-img");
+
+            smallImage[0].onclick = function() {
+                MainImg.src = smallImage[0].src;
+            }
+            smallImage[1].onclick = function() {
+                MainImg.src = smallImage[1].src;
+            }
+            smallImage[2].onclick = function() {
+                MainImg.src = smallImage[2].src;
+            }
+            smallImage[3].onclick = function() {
+                MainImg.src = smallImage[3].src;
+            }
+
+        </script>
 
         <script src="script.js"></script>
     </body>
