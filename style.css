@@ -615,6 +615,10 @@ footer .col{
     height: 40vh;
   }
 
+  #sm-banner  .banner-box2 {
+    margin-top: 20px;
+  }
+
   #banner3 .banner-box2 {
     margin-top: 20px;
   }
@@ -635,6 +639,22 @@ footer .col{
   }
 
   footer .copyright{
-    text-align: start;
+    text-align: center;
    }
+}
+
+@media (max-height: 350px){
+  #sm-banner .banner-box{
+    height: 50vh;
+  }
+
+  #sm-banner  .banner-box2 {
+    margin-top: 20px;
+  }
+
+  #banner {
+    height: 50vh;
+  }
+
+
 }
