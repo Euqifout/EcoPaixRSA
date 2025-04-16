@@ -481,6 +481,8 @@ footer .col{
 
  footer .copyright h4{
   padding-bottom: 0;
+  color: #222831;
+  font-weight: 400;
  }
  footer .copyright p {
   color:#825B32;
@@ -488,7 +490,7 @@ footer .col{
  }
  footer .copyright p span{
   color: #00ADB5;
-  font-weight: 600;
+  font-weight: 500;
  }
 /* Shop Page*/
 
