@@ -646,12 +646,12 @@ footer .col{
 @media (max-height: 350px){
 
   .logo{
-    width: 55%;
+    width: 50%;
     height: 35%;
   }
 
   #sm-banner .banner-box{
-    height: 50vh;
+    height: 60vh;
   }
 
   #sm-banner  .banner-box2 {
