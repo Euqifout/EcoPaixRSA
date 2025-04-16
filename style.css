@@ -644,6 +644,12 @@ footer .col{
 }
 
 @media (max-height: 350px){
+
+  .logo{
+    width: 55%;
+    height: 35%;
+  }
+
   #sm-banner .banner-box{
     height: 50vh;
   }
@@ -653,7 +659,7 @@ footer .col{
   }
 
   #banner {
-    height: 50vh;
+    height: 60vh;
   }
 
 
