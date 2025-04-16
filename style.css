@@ -503,6 +503,10 @@ footer .col{
     padding: 80px 0 0 10px;
     transition: 0.3s;
   }
+  .logo{
+    width: 70%;
+    height: 55%;
+  }
   #navBar.active{
     right: 0px;
   }
