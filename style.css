@@ -146,7 +146,7 @@ body {
 
 /* Home Page*/
 #hero{
-  background-image: url("img/hero4.png");
+  background-image: url("img/indexHomePic.jpg");
   height: 90vh;
   width: 100%;
   background-size: cover;
@@ -159,9 +159,14 @@ body {
 }
 #hero h4{
   padding-bottom: 15px;
+  
 }
 #hero h1{
-  color: #00ADB5;
+  color: #EEEEEE;
+}
+#hero p{
+  color: #222831;
+
 }
 #hero button{
   background-image: url("img/button.png");
